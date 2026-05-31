@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cover drive', 'Cutshot', 'Defence', 'Pullshot', 'Sweepshot']
+
+roboflow:
+  workspace: poovarasans-workspace-k9dsl
+  project: poovarasans-workspace-k9dsl
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/poovarasans-workspace-k9dsl/poovarasans-workspace-k9dsl/dataset
